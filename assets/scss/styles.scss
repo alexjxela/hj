@@ -292,16 +292,24 @@ img{
         display: flex;
         align-items: center;
     }
-    &__bar{
+    // &__bar{
+    //     position: absolute;
+    //     left: 0;
+    //     bottom: 0;
+    //     background-color: var(--first-color);
+    //     height: .25rem;
+    //     border-radius: .5rem;
+    //     z-index: var(--z-back);
+    // }
+    &__bar, &__r, &__python, &__stata, &__prompteng{
         position: absolute;
         left: 0;
         bottom: 0;
-        background-color: var(--first-color);
         height: .25rem;
         border-radius: .5rem;
         z-index: var(--z-back);
     }
-    &__r{
+    &__r {
         width: 90%;
     }
     &__python {
