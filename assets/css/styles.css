@@ -311,7 +311,7 @@ img {
 }
 
 /* ===== WORK =====*/
-.work__container {
+/* .work__container {
   row-gap: 2rem;
 }
 .work__img {
@@ -324,6 +324,23 @@ img {
 }
 .work__img img:hover {
   transform: scale(1.1);
+} */
+
+.work__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem; /* Adjust space between each item */
+} 
+.work__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} 
+.work__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    color: var(--second-color);
+    text-align: left;
 }
 
 /* ===== CONTACT =====*/
