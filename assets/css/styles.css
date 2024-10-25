@@ -245,22 +245,37 @@ img {
 }
 
 /* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .home__data {
+    max-width: 500px; /* Slightly narrower width for medium-large screens */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home__data {
+    max-width: 450px; /* Adjust for smaller desktop screens */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .home__data {
-    max-width: 90%; /* Let the text take up more screen width */
-    padding: 0 1rem; /* Add some padding to the sides */
-  }
-
-  .home__title {
-    font-size: 1.5rem; /* Reduce title font size */
+    max-width: 90%; /* Allows more width on tablet and smaller screens */
+    padding: 0 1rem;
   }
 
   .home__intro {
-    font-size: 0.875rem; /* Reduce intro font size */
+    font-size: 1rem; /* Smaller font for smaller screens */
+    line-height: 1.4; /* Increase line-height for readability */
   }
-  
-  .home__img {
-    width: 200px; /* Make the image smaller */
+}
+
+@media screen and (max-width: 576px) {
+  .home__data {
+    max-width: 95%; /* Take almost full width on mobile for easy reading */
+  }
+
+  .home__intro {
+    font-size: 0.875rem; /* Further reduce font size for mobile */
   }
 }
 
