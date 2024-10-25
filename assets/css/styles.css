@@ -186,15 +186,17 @@ img {
 }
 
 .home__data {
-  align-self: center;
-  max-width: 250px; /* Limit content width */
-  margin: 0 auto; /* Center content */
+  align-self: flex-start;
+  max-width: 400px; /* Limit content width */
+/*   margin: 0 auto; /* Center content */ 
+  padding: 0 1rem; 
   text-align: left;
 }
 
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  text-align: left;
 }
 
 .home__title-color {
