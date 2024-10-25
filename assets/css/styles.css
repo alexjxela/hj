@@ -27,7 +27,7 @@
 }
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 1rem;
+    --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
@@ -235,7 +235,7 @@ img {
 }
 
 .home__intro { 
-    font-size: 1rem;
+    font-size: var(--normal-font-size);
     line-height: 1.5;
     word-wrap: break-word; /* Prevent words from breaking awkwardly */
     overflow-wrap: break-word; /* Cross-browser support */
