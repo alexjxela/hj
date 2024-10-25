@@ -186,9 +186,10 @@ img {
 }
 
 .home__data {
-  align-self: left;
+  align-self: center;
   max-width: 400px; /* Limit content width */
   margin: 0 auto; /* Center content */
+  text-align: left;
 }
 
 .home__title {
