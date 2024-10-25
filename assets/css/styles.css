@@ -237,7 +237,7 @@ img {
 .home__intro { 
 /*     font-size: var(--normal-font-size); */
     font-size: 1.2rem;
-    line-height: .8;
+    line-height: .8rem;
     max-width: 800px;
     word-wrap: break-word; /* Prevent words from breaking awkwardly */
     overflow-wrap: break-word; /* Cross-browser support */
@@ -265,7 +265,7 @@ img {
 
   .home__intro {
     font-size: 1rem; /* Smaller font for smaller screens */
-    line-height: 1; /* Increase line-height for readability */
+    line-height: .8rem; /* Increase line-height for readability */
   }
 }
 
