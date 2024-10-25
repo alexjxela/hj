@@ -187,7 +187,7 @@ img {
 
 .home__data {
   align-self: left;
-  max-width: 600px; /* Limit content width */
+  max-width: 400px; /* Limit content width */
   margin: 0 auto; /* Center content */
 }
 
