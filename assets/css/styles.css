@@ -219,6 +219,10 @@ img {
 .home__blob-img {
   width: 360px;
 }
+.home__intro {
+    font-size: 1rem; /* Adjust this value to make it smaller */
+    line-height: 1.5; /* Optional: Adjust the line height for readability */
+}
 
 /*BUTTONS*/
 .button {
